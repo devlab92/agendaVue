@@ -103,7 +103,6 @@ p {
 
 #navBar {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	margin: 0 0 1rem 0;
 }
@@ -126,7 +125,7 @@ p {
 }
 
 #searchInput {
-	width: 60%;
+	width: 100%;
 }
 
 #searchInput input {

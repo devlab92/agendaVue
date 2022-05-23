@@ -46,7 +46,7 @@ export default {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	display: flex;
@@ -56,6 +56,7 @@ export default {
 
 #modalBox {
 	position: absolute;
+	width: 95%;
 	max-width: 27rem;
 	margin: 15vh 0.5rem 0 0.5rem;
 	padding: 0 0 0.5rem 0;
