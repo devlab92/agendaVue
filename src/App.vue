@@ -20,7 +20,7 @@
 			<span v-if="contact || setContacts">
 				<ContactList :newContact="contact" :setContacts="setContacts" :inputSearch="inputSearch" @thereIsNoContact="contact = $event" />
 			</span>
-			<span v-else id="noCantactSection">
+			<span v-else id="noContactSection">
 				<NoContact @formValidator="formValidator = $event" />
 				<span @click="formValidator = !formValidator">
 					<NewContactButton />
@@ -109,7 +109,6 @@ p {
 }
 
 #logoBtn {
-	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
@@ -127,7 +126,7 @@ p {
 }
 
 #searchInput {
-	width: 100%;
+	width: 60%;
 }
 
 #searchInput input {
@@ -161,7 +160,7 @@ p {
 	color: var(--bluey-grey);
 }
 
-#noCantactSection {
+#noContactSection {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

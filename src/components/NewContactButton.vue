@@ -15,8 +15,7 @@ export default {
 
 <style scoped>
 #newContact {
-	width: 100%;
-	max-width: 9rem;
+	width: 9rem;
 	border-radius: 20px;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16),
 		0 0 0 0.5px var(--black-8), inset 0 0 0 0.5px var(--black-8),
@@ -41,6 +40,10 @@ export default {
 }
 
 @media (max-width: 479px) {
+	#newContact{
+		width: 100%;
+		max-width: 9rem;
+	}
 	span{
 		font-size: .8em;
 	}
